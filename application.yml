@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/trackmedb
+    url: jdbc:mysql://localhost:3306/trackmedb?createDatabaseIfNotExist=true
     username: root
     password: password
     driver-class: com.mysql.jdbc.Driver
