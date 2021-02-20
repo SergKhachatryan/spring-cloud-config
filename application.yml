@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/trackmedb?createDatabaseIfNotExist=true
     username: root
     password: password
-    driver-class: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       naming:
